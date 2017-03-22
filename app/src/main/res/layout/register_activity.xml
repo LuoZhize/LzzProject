@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcdcdc"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="40sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_eighty">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+
+                android:text="@string/userName" />
+
+            <EditText
+                android:id="@+id/login_activity_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFAFA"
+                android:hint="@string/IpUserName" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginTop="@dimen/activity_five"
+                android:text="@string/passWord" />
+
+            <EditText
+                android:id="@+id/login_activity_passWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_five"
+                android:background="#FFFAFA"
+                android:hint="@string/IpPassWord" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginTop="@dimen/activity_five"
+                android:text="@string/surePassWord" />
+
+            <EditText
+                android:id="@+id/login_activity_passWord_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_five"
+                android:background="#FFFAFA"
+                android:hint="@string/IpPassWord" />
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/login_activity_register"
+        android:layout_width="@dimen/activity_eighty"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_eighty"
+        android:background="#4876ff"
+        android:text="@string/register"
+        android:textColor="#FFFAFa" />
+</LinearLayout>
