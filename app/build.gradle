@@ -18,9 +18,9 @@ android {
         }
     }
     //指定动态库什么什么的添加
-    sourceSets{
-        main{
-            jniLibs.srcDirs=['libs']
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
         }
     }
 }
