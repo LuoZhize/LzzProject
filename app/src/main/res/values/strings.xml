@@ -9,9 +9,11 @@
     <string name="add">添加</string>
     <string name="delete">删除</string>
     <string name="register">注册</string>
+    <string name="loging">加载中</string>
     <string name="surePassWord">确认密码:</string>
     <string name="friend">联系人</string>
     <string name="dialogue">个人会话</string>
     <string name="end">退出当前账号</string>
     <string name="set">设置</string>
+    <string name="nodialogue">您还没有收到任何消息！</string>
 </resources>

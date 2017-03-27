@@ -10,6 +10,7 @@ import android.widget.EditText;
 
 import com.example.lzzproject.MainActivity;
 import com.example.lzzproject.R;
+import com.example.lzzproject.view.TestDialog;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 
@@ -27,6 +28,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
         initview();
+        new TestDialog(this,R.style.dialog);
     }
 
     private void initview() {

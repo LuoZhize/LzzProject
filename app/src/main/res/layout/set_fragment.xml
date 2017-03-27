@@ -17,7 +17,7 @@
         android:id="@+id/set_fragment_image"
         android:layout_width="@dimen/activity_fivity"
         android:layout_height="@dimen/activity_fivity"
-        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/activity_twenty"
         android:layout_marginTop="@dimen/activity_eighty"
         android:background="@drawable/yuan" />
 
@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/activity_hunder"
+        android:layout_marginTop="@dimen/activity_eighty"
         android:background="#ff00"
         android:text="@string/end"
         android:textSize="@dimen/activity_twenty" />
