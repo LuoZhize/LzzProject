@@ -62,7 +62,7 @@
             android:id="@+id/login_activity_login"
             android:layout_width="@dimen/activity_eighty"
             android:layout_height="wrap_content"
-            android:background="#4876ff"
+            android:background="@drawable/login_btn_bg"
             android:text="@string/login"
             android:textColor="#FFFAFa" />
 
@@ -71,7 +71,7 @@
             android:layout_width="@dimen/activity_eighty"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_twenty"
-            android:background="#4876ff"
+            android:background="@drawable/login_btn_bg"
             android:text="@string/register"
             android:textColor="#FFFAFa" />
     </LinearLayout>

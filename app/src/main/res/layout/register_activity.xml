@@ -77,7 +77,7 @@
         android:layout_width="@dimen/activity_eighty"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_eighty"
-        android:background="#4876ff"
+        android:background="@drawable/login_btn_bg"
         android:text="@string/register"
         android:textColor="#FFFAFa" />
 </LinearLayout>
