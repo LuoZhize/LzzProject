@@ -28,7 +28,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
         initview();
-        new TestDialog(this,R.style.dialog);
+        new TestDialog(this, R.style.dialog);
     }
 
     private void initview() {
@@ -46,7 +46,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
             case R.id.login_activity_login:
                 String name = userName.getText().toString();
                 String pass = passWord.getText().toString();
-                if (name.equals("twoatwo") && pass.equals("2a2")) {
+                if (name.equals("lzz") && pass.equals("1026")) {
                     Intent in = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(in);
                     finish();
