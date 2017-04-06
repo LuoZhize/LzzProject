@@ -76,9 +76,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.LoginActivity"/>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".activity.RegisterActivity"/>
+
+        <activity android:name=".activity.LoginActivity">
+
+        </activity>
+
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".activity.RegisterActivity">
+
+        </activity>
+
+        <activity android:name=".activity.DialogueActivity">
+
+        </activity>
+
         <!-- 设置环信应用的AppKey -->
 
 

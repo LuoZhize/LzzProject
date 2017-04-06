@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.messge_btn:
                 fragmentTransaction.replace(R.id.frame_layout, messageFragment);
+                fragmentTransaction.setCustomAnimations(R.anim.abc_fade_in, R.anim.abc_fade_in);
                 break;
             case R.id.friend_btn:
                 fragmentTransaction.replace(R.id.frame_layout, friendFragment);

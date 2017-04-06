@@ -8,4 +8,14 @@
         android:id="@+id/information_fragent_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_tenthSix"
+        android:layout_marginTop="@dimen/activity_five"
+        android:text="@string/nodialogue"
+        android:textColor="#ffff00"
+        android:textSize="@dimen/activity_twenty" />
 </LinearLayout>

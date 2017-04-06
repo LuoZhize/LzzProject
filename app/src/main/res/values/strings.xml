@@ -16,4 +16,6 @@
     <string name="end">退出当前账号</string>
     <string name="set">设置</string>
     <string name="nodialogue">您还没有收到任何消息！</string>
+    <string name="save">发送</string>
+    <string name="content">请输入聊天内容</string>
 </resources>
